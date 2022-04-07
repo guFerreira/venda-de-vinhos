@@ -1,6 +1,7 @@
 package br.com.ubots.estagio.vendaDeVinhos.controller;
 
-import ch.qos.logback.core.net.server.Client;
+import br.com.ubots.estagio.vendaDeVinhos.model.Client;
+import br.com.ubots.estagio.vendaDeVinhos.service.ClientService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
